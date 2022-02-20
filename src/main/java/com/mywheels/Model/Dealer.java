@@ -18,11 +18,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Dealer {
     
-
     @Id
     private String id;
-    private String DealerName;
-    private String DealerCompany;
+    private String dealerName;
+    private String dealerCompany;
     private String email;
     private String gst_NO;
     @Field(name = "userId", targetType = FieldType.OBJECT_ID)
